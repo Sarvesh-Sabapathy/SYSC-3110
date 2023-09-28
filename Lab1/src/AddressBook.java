@@ -9,6 +9,8 @@ public class AddressBook {
         buddyList = new ArrayList<>();
     }
 
+    public AddressBook(List buddyList){}
+
     public void addBuddy(BuddyInfo buddy){
         if (buddy != null) {
             buddyList.add(buddy);
